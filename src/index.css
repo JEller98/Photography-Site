@@ -31,7 +31,7 @@ a:hover, a:focus {
 }
 
 /* underline animation */
-a:not(footer a)::after {
+nav a::after {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -42,7 +42,7 @@ a:not(footer a)::after {
     transition: width 0.3s ease;
 }
 
-a:hover::after, a:focus::after {
+nav a:hover::after, a:focus::after {
     width: 100px;
 }
 
@@ -136,7 +136,7 @@ nav a {
 .work-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     z-index: -1;
 }
 
