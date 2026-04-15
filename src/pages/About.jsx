@@ -12,8 +12,9 @@ export default function About() {
             </p>
             <p>
                 {/*Ensure the CV link actually goes somewhere*/}
-                To download her CV, <a href = "/pdfs/CV.pdf" target = "_blank" rel = "noopener noreferrer">click here</a>
+                To download her CV, <a href = "/pdfs/CV.pdf" target = "_blank" rel = "noopener noreferrer">click here.</a>
             </p>
+            <p>Email: <a href = "mailto:kassandraellerphotography@gmail.com">kassandraellerphotography@gmail.com</a></p>
 
             {/*Potentially do a contact form here?*/}
         </>
