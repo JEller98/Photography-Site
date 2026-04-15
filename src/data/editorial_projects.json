@@ -1,0 +1,125 @@
+[
+    {
+        "title": "Spilling the Tea on Tea",
+        "slug": "spilling-the-tea-on-tea",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/tea/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/spring_2021",
+        "images": [
+            "/public/images/editorial-work/photos/tea/web2.webp",
+            "/public/images/editorial-work/photos/tea/webtea1.webp",
+            "/public/images/editorial-work/photos/tea/webtea2.webp",
+            "/public/images/editorial-work/photos/tea/webtea4.webp",
+            "/public/images/editorial-work/photos/tea/webtea6.webp",
+            "/public/images/editorial-work/photos/tea/webtea7.webp"
+        ]
+    },
+    {
+        "title": "Drag: From Taboo to a Household Word",
+        "slug": "drag-from-taboo-to-a-household-word",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/drag/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/fall_2021_issue_one",
+        "images": [
+            "/public/images/editorial-work/photos/drag/drag4+RGB.webp",
+            "/public/images/editorial-work/photos/drag/drag10+RGB.webp",
+            "/public/images/editorial-work/photos/drag/drag14+RGB.webp",
+            "/public/images/editorial-work/photos/drag/drag13+RGB.webp",
+            "/public/images/editorial-work/photos/drag/drag5+RGB.webp",
+            "/public/images/editorial-work/photos/drag/drag9+RGB.webp"
+        ]
+    },
+    {
+        "title": "Adventures From Your Car",
+        "slug": "adventures-from-your-car",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/car/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/pulse_spring_2020_issue_1",
+        "images": [
+            "/public/images/editorial-work/photos/car/webcar6.webp",
+            "/public/images/editorial-work/photos/car/webcar8.webp",
+            "/public/images/editorial-work/photos/car/webcar3.webp",
+            "/public/images/editorial-work/photos/car/web4.webp",
+            "/public/images/editorial-work/photos/car/webcar2.webp"
+        ]
+    },
+    {
+        "title": "The Many Faces Of Domestic Violence",
+        "slug": "the-many-faces-of-domestic-violence",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/dv/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/pulse_winter_2020_issue_2_",
+        "images": [
+            "/public/images/editorial-work/photos/dv/webdv3.webp",
+            "/public/images/editorial-work/photos/dv/webdv2.webp",
+            "/public/images/editorial-work/photos/dv/webdv1.webp",
+            "/public/images/editorial-work/photos/dv/webdv5.webp",
+            "/public/images/editorial-work/photos/dv/webdv6.webp",
+            "/public/images/editorial-work/photos/dv/webdv9.webp",
+            "/public/images/editorial-work/photos/dv/webdv10.webp"
+        ]
+    },
+    {
+        "title": "The Art of Sushi",
+        "slug": "the-art-of-sushi",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/sushi/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/spring_2021",
+        "images": [
+            "/public/images/editorial-work/photos/sushi/Sushi1+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Octopus+Tako4+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Green+Peace1+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Tri-Color+Sashami3+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Shrimp+Tempura3+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/California4+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Shrimp+Tempura1+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Tuna1+RGB.webp",
+            "/public/images/editorial-work/photos/sushi/Golden+Seattle2+RGB.webp"
+        ]
+    },
+    {
+        "title": "Off the Chain",
+        "slug": "off-the-chain",
+        "type": "photo",
+        "hero": "/public/images/editorial-work/photos/chain/hero.webp",
+        "externalLink": "https://issuu.com/cwupulse/docs/pulse_winter2020_issue1",
+        "images": [
+            "/public/images/editorial-work/photos/chain/webjewel6.webp",
+            "/public/images/editorial-work/photos/chain/webjewel8.webp",
+            "/public/images/editorial-work/photos/chain/webjewel4.webp",
+            "/public/images/editorial-work/photos/chain/webjewel2.webp",
+            "/public/images/editorial-work/photos/chain/webjewel5-EllerK.webp",
+            "/public/images/editorial-work/photos/chain/webjewel1.webp"
+        ]
+    },
+    {
+        "title": "Multimedia",
+        "slug": "multimedia",
+        "type" : "video",
+        "videos": [
+            {
+                "platform": "vimeo",
+                "embedURL": "https://vimeo.com/646270961",
+                "videoTitle": "Charcuterie 101",
+                "description": "Content created for PULSE Magazine"
+            },
+            {
+                "platform": "youtube",
+                "embedURL": "https://www.youtube.com/watch?v=yilVP-zJmIE",
+                "videoTitle": "CWU Student Media Podcast, Guest Speaker",
+                "description": "Content created for PULSE Magazine"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "slug": "",
+        "type": "writing",
+        "externalLink": "",
+        "header": "",
+        "body": [
+            {"type": "text", "content": "paragraph goes here"},
+            {"type": "image", "src": "https://picsum.photos/400/300"}
+        ]
+    }
+]
