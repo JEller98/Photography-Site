@@ -1,16 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To do:
+-Accessibility pass (ensure dark theming of site meets contrast ratios for readability, proper tab navigation, skip links on each page)
+-Look into react-helmet for updating the HTML title on the fly
+-Write up a document to assist client in adding content on her own
+-Await updated CV + higher-quality assets (client has them locked away on a Mac somewhere)
+-Ask client about Josefin Sans or Raleway for the body text (current is DM Sans)
+-Ensure consistency of dark tone across pages
+-Maybe add work projects to hamburger menu (and hide them in a dropdown menu somewhere on desktop)? Ask client
