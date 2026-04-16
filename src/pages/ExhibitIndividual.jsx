@@ -24,8 +24,7 @@ export default function ExhibitIndividual() {
             { /* pulling info from the JSON */}
             <div className = "image-grid">
                 {exhibit.images.map((image, index) => (
-                    <button key = {index} 
-                    onClick = {() => {setIndex(index); setOpen(true);}} 
+                    <button key = {index}  
                     className = "image-card" tabIndex = {0}>
                         <img src = {image} alt = {exhibit.alt_text?.[index] ?? ""}/>
                     </button>
