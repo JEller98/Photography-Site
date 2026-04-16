@@ -8,9 +8,12 @@ export default function NavBar() {
         <nav>
             <Link to = "/" className = "nav-logo" onClick = {() => setIsOpen(false)}>Kassandra Eller</Link>
             <div className = {`nav-links ${isOpen ? "open" : ""}`}>
-            {/* Editorial work is hidden for the foreseeable future */}
-            {/* <Link to = "/editorial">Editorial Work</Link> */}
-            <Link to = "/about" onClick = {() => setIsOpen(false)}>About</Link>
+                <Link to = "/work" onClick = {() => setIsOpen(false)}>Work</Link>
+                <Link to = "/exhibits" onClick = {()  => setIsOpen(false)}>Exhibits</Link>
+                <Link to = "/about" onClick = {() => setIsOpen(false)}>About</Link>
+            
+                {/* Editorial work is hidden for the foreseeable future */}
+                {/* <Link to = "/editorial">Editorial Work</Link> */}
             </div>
             <button className = {`hamburger ${isOpen ? "open" : ""}`} onClick = {() => setIsOpen(!isOpen)}>
                 <span></span>
