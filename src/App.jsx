@@ -13,8 +13,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path = "/" element = {<Layout />}>
-          <Route index element = {<PersonalWork />} />
-          <Route path = "/:slug" element = {<PersonalWorkProject />} />
+          <Route index element = {<HomePage />} />
+          <Route path = "/work" element = {<PersonalWork />} />
+          <Route path = "/work/:slug" element = {<PersonalWorkProject />} />
           {/* Editorial work hidden for the foreseeable future */}
           {/* <Route path = "editorial" element = {<EditorialWork />} />
           <Route path = "editorial/:slug" element = {<EditorialWorkItem />} /> */}
