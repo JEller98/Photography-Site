@@ -19,7 +19,11 @@ export default function PersonalWorkProject() {
         return <p>Project not found.</p>;
     }
 
-    const slides = project.images.map((image, index) => ({src: image, description: project.descriptions?.[index] ?? ""}));
+    const slides = project.images.map((image, index) => ({
+        src: image, 
+        title: project.names?.[index] ?? "",
+        description: project.descriptions?.[index] ?? ""
+    }));
 
     return (
         <>
@@ -36,10 +40,22 @@ export default function PersonalWorkProject() {
             { /* pulling info from the JSON */}
             <div className = "image-grid">
                 {project.images.map((image, index) => (
-                    <div key = {index} onClick = {() => {setIndex(index); setOpen(true);}} className = "image-card" tabIndex = {0}
+                    <div key = {index} 
+                    onClick = {() => {setIndex(index); setOpen(true);}} 
+                    className = "image-card" tabIndex = {0} 
                     onKeyDown = {e => e.key === "Enter" && (setIndex(index), setOpen(true))}>
                         <img src = {image} alt = {project.descriptions?.[index] ?? ""}/>
-                        {project.descriptions?.[index] && (<p>{project.descriptions[index]}</p>)}
+                        {(project.names?.[index] || project.descriptions?.[index]) && (
+                        <div className = "image-overlay">
+                            {project.names?.[index] && (
+                                <p className = "image-overlay--name">{project.names[index]}</p>
+                            )}
+
+                            {project.descriptions?.[index] && (
+                                <p className = "image-overlay--description">{project.descriptions[index]}</p>
+                            )}
+                        </div>
+                    )}
                     </div>
                 ))}
             </div>    

@@ -4,6 +4,7 @@
 :root {
     --font-heading: "Cormorant Garamond", serif;
     --font-body: "Raelway", sans-serif;
+    --font-project-overlay: "Playfair Display", serif;
     --font-color: #faf9f6;
     --bg-color: #1f2022;
 }
@@ -270,6 +271,7 @@ nav a:hover::after, a:focus::after {
 }
 
 .image-card {
+    position: relative;
     cursor: zoom-in;
     overflow: hidden;
     break-inside: avoid;
@@ -287,6 +289,40 @@ nav a:hover::after, a:focus::after {
 .image-card:hover img, .image-card:focus-within img {
     transform: scale(1.03);
     filter: brightness(1.1);
+}
+
+/* image overlay */
+.image-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.image-card:hover .image-overlay,
+.image-card:focus .image-overlay {
+    opacity: 1;
+}
+
+.image-overlay--name {
+    font-family: var(--font-project-overlay);
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 0 0 0.4rem 0;
+}
+
+.image-overlay--description {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    opacity: 0.75;
+    margin: 0;
+    letter-spacing: 0.05em;
 }
 
 /* social links */
@@ -318,6 +354,19 @@ footer a:hover img, footer a:focus img {
 /* overriding yet another react lightbox */
 .yarl__root {
     --yarl__color_backdrop: rgba(0, 0, 0, .95);
+}
+
+.yarl__slide_title {
+    font-family: var(--font-project-overlay);
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.yarl__slide_description {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    opacity: 0.75;
+    letter-spacing: 0.05em;
 }
 
 /* Mobile/tablet styling */
