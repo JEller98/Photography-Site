@@ -36,7 +36,7 @@ export default function PersonalWork() {
 
     return (
         <>
-            <Helmet><title>Kassandra Eller</title></Helmet>
+            <Helmet><title>Work - Kassandra Eller</title></Helmet>
             
             {/* back layer */}
             <div className = "work-background" style = {layers.back ? {backgroundImage: `url(${layers.back})`} : {}} />
@@ -50,7 +50,7 @@ export default function PersonalWork() {
             <ul className = "work-list">
                 {personalProjects.map(project => 
                     <li key = {project.slug}>
-                        <Link to = {`/${project.slug}`} onMouseEnter = {() => handleFocus(project)} onFocus = {() => handleFocus(project)}>
+                        <Link to = {`/work/${project.slug}`} onMouseEnter = {() => handleFocus(project)} onFocus = {() => handleFocus(project)}>
                             {project.title}
                         </Link>
                     </li>
