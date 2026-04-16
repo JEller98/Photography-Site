@@ -29,7 +29,7 @@ export default function PersonalWork() {
         setFading(true);
 
         timerRef.current = setTimeout(() => {
-            setLayers({front: newImage, back: prev.back});
+            setLayers(prev => ({front: newImage, back: prev.back}));
             setFading(false);
         }, 600);
     }
