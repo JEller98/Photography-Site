@@ -14,6 +14,8 @@ export default function ExhibitIndividual() {
         <>
             <Helmet><title>{exhibit.title} - Kassandra Eller</title></Helmet>
             
+            <h1 className = "project-title">{exhibit.title}</h1>
+
             <p className = "project-meta">{exhibit.venue}</p>
             <p className = "project-meta">{exhibit.date}</p>
             <a href = {exhibit.artist_statement} target = "_blank" 
