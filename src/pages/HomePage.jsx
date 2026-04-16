@@ -58,10 +58,15 @@ export default function HomePage() {
             <Helmet><title>Kassandra Eller</title></Helmet>
 
         {/* back layer */}
-        <div className = "hero-bg" style = {{backgroundImage : `url(${images[layers.back ?? layers.front]})`}} />
+        <div 
+        aria-hidden = "true"
+        className = "hero-bg"
+        style = {{backgroundImage : `url(${images[layers.back ?? layers.front]})`}} />
 
         {/* front layer */}
-        <div className = {`hero-bg hero-bg--front ${transitioning ? "hero-bg--outgoing" : ""}`}
+        <div 
+        aria-hidden = "true"
+        className = {`hero-bg hero-bg--front ${transitioning ? "hero-bg--outgoing" : ""}`}
         style = {{backgroundImage: `url(${images[layers.front]})`}} />
 
         <div className = "hero-overlay" />

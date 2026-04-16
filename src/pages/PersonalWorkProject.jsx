@@ -40,10 +40,9 @@ export default function PersonalWorkProject() {
             { /* pulling info from the JSON */}
             <div className = "image-grid">
                 {project.images.map((image, index) => (
-                    <div key = {index} 
+                    <button key = {index} 
                     onClick = {() => {setIndex(index); setOpen(true);}} 
-                    className = "image-card" tabIndex = {0} 
-                    onKeyDown = {e => e.key === "Enter" && (setIndex(index), setOpen(true))}>
+                    className = "image-card" tabIndex = {0}>
                         <img src = {image} alt = {project.descriptions?.[index] ?? ""}/>
                         {(project.names?.[index] || project.descriptions?.[index]) && (
                         <div className = "image-overlay">
@@ -56,7 +55,7 @@ export default function PersonalWorkProject() {
                             )}
                         </div>
                     )}
-                    </div>
+                    </button>
                 ))}
             </div>    
 

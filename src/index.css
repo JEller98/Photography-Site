@@ -310,6 +310,16 @@ nav a:hover::after, a:focus::after {
     overflow: hidden;
     break-inside: avoid;
     margin-bottom: 1rem;
+
+    /* button overrides */
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: block;
+    color: inherit;
+    font: inherit;
 }
 
 .image-card img {

@@ -39,10 +39,15 @@ export default function PersonalWork() {
             <Helmet><title>Work - Kassandra Eller</title></Helmet>
             
             {/* back layer */}
-            <div className = "work-background" style = {layers.back ? {backgroundImage: `url(${layers.back})`} : {}} />
+            <div 
+            aria-hidden = "true"
+            className = "work-background"
+            style = {layers.back ? {backgroundImage: `url(${layers.back})`} : {}} />
     
             {/* front layer */}
-            <div className = "work-background work-background--front" 
+            <div 
+            aria-hidden = "true"
+            className = "work-background work-background--front" 
             style = {{backgroundImage: layers.front ? `url(${layers.front})` : "none", opacity: fading ? 0 : 1}}></div>
 
             <div className = "work-overlay" />
