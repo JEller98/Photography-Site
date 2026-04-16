@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Bachelor of Fine Arts Senior Exhibition",
+        "venue": "Gallery 231, Ellensburg, WA",
+        "date": "February 22-25, 2022",
+        "artist_statement": "/pdfs/Artist+Statement-Eller.pdf",
+        "slug": "senior-exhibit",
+        "images": [
+            "/images/exhibits/BFA/Exhibit24+copy.webp",
+            "/images/exhibits/BFA/Exhibit23.webp",
+            "/images/exhibits/BFA/Exhibit16.webp",
+            "/images/exhibits/BFA/Exhibit26.webp",
+            "/images/exhibits/BFA/Exhibit3.webp",
+            "/images/exhibits/BFA/Exhibit11.webp",
+            "/images/exhibits/BFA/Exhibit12.webp",
+            "/images/exhibits/BFA/Exhibit14.webp",
+            "/images/exhibits/BFA/Exhibit10.webp"
+        ],
+        "alt_text": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]
