@@ -5,6 +5,7 @@ import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 import {useState} from "react";
+import {Helmet} from "react-helmet-async";
 
 export default function PersonalWorkProject() {
     const {slug} = useParams();
@@ -19,23 +20,24 @@ export default function PersonalWorkProject() {
     }
 
     const slides = project.images.map((image, index) => ({src: image, description: project.descriptions?.[index] ?? ""}));
-    console.log(slides);
-
 
     return (
         <>
-            <h1>{project.title}</h1>
+            <Helmet><title>{project.title} - Kassandra Eller</title></Helmet>
+            <h1 className = "project-title">{project.title}</h1>
 
             {/* checks for the senior exhibtion */}
-            {project.venue && <p>{project.venue}</p>}
-            {project.date && <p>{project.date}</p>}
-            {project.artist_statement &&  (<a href = {project.artist_statement} target = "_blank" rel = "noopener noreferrer">Artist Statement</a>)}
+            {project.venue && <p className = "project-meta">{project.venue}</p>}
+            {project.date && <p className = "project-meta">{project.date}</p>}
+            {project.artist_statement && 
+            (<a href = {project.artist_statement} target = "_blank" 
+            rel = "noopener noreferrer" className = "project-meta">Artist Statement</a>)}
             
-
             { /* pulling info from the JSON */}
             <div className = "image-grid">
                 {project.images.map((image, index) => (
-                    <div key = {index} onClick = {() => {setIndex(index); setOpen(true);}} className = "image-card">
+                    <div key = {index} onClick = {() => {setIndex(index); setOpen(true);}} className = "image-card" tabIndex = {0}
+                    onKeyDown = {e => e.key === "Enter" && (setIndex(index), setOpen(true))}>
                         <img src = {image} alt = {project.descriptions?.[index] ?? ""}/>
                         {project.descriptions?.[index] && (<p>{project.descriptions[index]}</p>)}
                     </div>
