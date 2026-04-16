@@ -13,19 +13,21 @@ export default function About() {
 
                 <div className = "about-content">
                     <p>
-                        Kassandra Eller is a visual artist who experiments with how photographic processes intertwine with the ideas of how one views family, nature, and life itself. She strives to reveal the intricacies of how each being reacts to strife and trauma in her works.
+                        Kassandra Eller is a visual artist working between digital and analog processes, often using alternative photographic techniques to keep a physical hand in the act of image-making. Her work moves through ideas of memory, trauma, and place, considering how identity is shaped by what we carry and what we return to. Themes of nature, femininity, and family weave throughout her images, where the personal and environmental begin to overlap.
                     </p>
                     <p>
-                        Eller earned her BFA in Studio Art from Central Washington University in March 2022. As an undergraduate, she held the position of Director of Photography for PULSE Magazine, based in Ellensburg, Washington, and concluded an internship with Magnum Photos in New York. She is currently an intern at Lenscratch, working directly under Aline Smithson.
+                        Her practice leans into both experimentation and intuition, allowing images to shift and settle into something felt rather than fixed.
                     </p>
                     <p>
-                        Eller is currently open to freelance work.
+                        Eller received her BFA in Studio Art from Central Washington University in 2022, where she was Director of Photography for PULSE Magazine and completed an internship with Magnum Photos in New York. She is currently an editor at Lenscratch, an online publication focused on contemporary photography.                    </p>
+                    <p>
+                        Her work has been exhibited regionally, including in Seattle, WA, Portland, OR, and Los Angeles, CA, and beyond.
                     </p>
                     <p>
                         To download her CV, <a href = "/pdfs/CV.pdf" target = "_blank" rel = "noopener noreferrer">click here.
                         <span className = "sr-only"> (opens in new tab)</span></a>
                     </p>
-                    <p>Email: <a href = "mailto:kassandraellerphotography@gmail.com">kassandraellerphotography@gmail.com</a></p>
+                    <p>For inquiries about her work, process, or purchasing prints, please reach out at <a href = "mailto:kassandraellerphotography@gmail.com">kassandraellerphotogrpahy@gmail.com.</a></p>
                 </div>
             </div>
             {/*Potentially do a contact form here?*/}
