@@ -16,10 +16,12 @@ export default function App() {
           <Route index element = {<HomePage />} />
           <Route path = "/work" element = {<PersonalWork />} />
           <Route path = "/work/:slug" element = {<PersonalWorkProject />} />
+          <Route path = "/exhibits"  element = {<ExhibitsCategory />} />
+          <Route path = "/exhibits/:slug" element = {<ExhibitIndividual />} />
           {/* Editorial work hidden for the foreseeable future */}
           {/* <Route path = "editorial" element = {<EditorialWork />} />
           <Route path = "editorial/:slug" element = {<EditorialWorkItem />} /> */}
-          <Route path = "about" element = {<About />} />
+          <Route path = "/about" element = {<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
