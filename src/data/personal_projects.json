@@ -40,14 +40,22 @@
             "/images/personal-work/ties/PortfolioDolls1+copy+72dpi.webp",
             "/images/personal-work/ties/Portfolio+Curtains.webp"
         ],
+        "names" : [
+            "Table Settings",
+            "Bottle Blower",
+            "Vase",
+            "Grandma's Eyes",
+            "Dolls #1-3",
+            "The Kitchen Curtains"
+        ],
         "descriptions": [
-            "Table Settings, liquid emulsion on ceramic, each plate is 8 x 8 x 8 inches",
-            "Bottle Blower, liquid emulsion on steel",
-            "Vase, liquid emulsion on fabric, 4.5 x 8 x 4 inches",
-            "Doily, liquid emulsion on fabric, 7.5 x 7.5 inches",
-            "Grandma's Eyes, liquid emulsion on fabric, 10.5 x 10.5 inches",
-            "Dolls #1-3, liquid emulsion on fabric, Left to Right: 4.25 x 6.5 x 2 inches, 6 x 13 x 2.5 inches, 5.25 x 7 x 2.25 inches",
-            "The Kitchen Curtains, liquid emulsion on fabric, 24 x 13.5 x 2.5 inches"
+            "liquid emulsion on ceramic, each plate is 8 x 8 x 8 inches",
+            "liquid emulsion on steel",
+            "liquid emulsion on fabric, 4.5 x 8 x 4 inches",
+            "liquid emulsion on fabric, 7.5 x 7.5 inches",
+            "liquid emulsion on fabric, 10.5 x 10.5 inches",
+            "liquid emulsion on fabric, Left to Right: 4.25 x 6.5 x 2 inches, 6 x 13 x 2.5 inches, 5.25 x 7 x 2.25 inches",
+            "liquid emulsion on fabric, 24 x 13.5 x 2.5 inches"
         ]
     },
         {
@@ -61,13 +69,21 @@
             "/images/personal-work/innocence/PortfolioPillPopperMid.webp",
             "/images/personal-work/innocence/PortfolioStickerFaceBig.webp"
         ],
+        "names": [
+            "Telephone Vision",
+            "Bottle Blower",
+            "Flower Girl",
+            "Let Her Eat Cake",
+            "Pill Popper",
+            "Sticker Face"
+        ],
         "descriptions": [
-            "Telephone Vision, liquid emulsion on steel, 9 x 12 inches",
-            "Bottle Blower, liquid emulsion on steel, 5 x 8 inches",
-            "Flower Girl, liquid emulsion on steel, 6 x 9 inches",
-            "Let Her Eat Cake, liquid emulsion on steel, 5 x 8 inches",
-            "Pill Popper, liquid emulsion on steel, 6 x 9 inches",
-            "Sticker Face, liquid emulsion on steel, 9 x 12 inches"
+            "liquid emulsion on steel, 9 x 12 inches",
+            "liquid emulsion on steel, 5 x 8 inches",
+            "liquid emulsion on steel, 6 x 9 inches",
+            "liquid emulsion on steel, 5 x 8 inches",
+            "liquid emulsion on steel, 6 x 9 inches",
+            "liquid emulsion on steel, 9 x 12 inches"
         ]
     },
     {
@@ -83,15 +99,25 @@
             "/images/personal-work/reflections/webthewatcher.webp",
             "/images/personal-work/reflections/webthelighttowelcomemehome+copy.webp"
         ],
+        "names": [
+            "the bed that is no longer mine",
+            "the light in the dark",
+            "the window looking out",
+            "the flowers that never die",
+            "the forgotten",
+            "the summer memories",
+            "the watcher",
+            "the light to welcome me home"
+        ],
         "descriptions": [
-            "the bed that is no longer mine, Van Dyke emulsion on watercolor paper, 12 x 9 inches",
-            "the light in the dark, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the window looking out, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the flowers that never die, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the forgotten, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the summer memories, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the watcher, Van Dyke emulsion on watercolor paper, 9 x 12 inches",
-            "the light to welcome me home, Van Dyke emulsion on watercolor paper, 9 x 12 inches"
+            "Van Dyke emulsion on watercolor paper, 12 x 9 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches",
+            "Van Dyke emulsion on watercolor paper, 9 x 12 inches"
         ]
     },
         {
@@ -104,12 +130,19 @@
             "/images/personal-work/religious/IMG_8511.webp",
             "/images/personal-work/religious/IMG_8509.webp"
         ],
+        "names": [
+            "Sinner's repent",
+            "He suffers",
+            "Sacred words",
+            "The hymns",
+            "Born again"
+        ],
         "descriptions": [
-            "Sinner's repent, lumen print, 5 x 8 inches",
-            "He suffers, lumen print, 5 x 8 inches",
-            "Sacred words, lumen print, 5 x 8 inches",
-            "The hymns, lumen print, 5 x 8 inches",
-            "Born again, lumen print, 5 x 8 inches"
+            "lumen print, 5 x 8 inches",
+            "lumen print, 5 x 8 inches",
+            "lumen print, 5 x 8 inches",
+            "lumen print, 5 x 8 inches",
+            "lumen print, 5 x 8 inches"
         ]
     },
     {
@@ -126,16 +159,27 @@
             "/images/personal-work/honey/IMG_1466.webp",
             "/images/personal-work/honey/IMG_1470.webp"
         ],
+        "names": [
+            "#1",
+            "#2",
+            "#3",
+            "#4",
+            "#5",
+            "#6",
+            "#7",
+            "#8",
+            "#9"
+        ],
         "descriptions": [
-            "#1, inkjet transfer on watercolor paper, 8.5 x 4.5 inches",
-            "#2, inkjet transfer on watercolor paper, 5.5 x 3.5 inches",
-            "#3, archival print on transfer paper, 10 x 7.5 inches",
-            "#4, inkjet transfer on watercolor paper, 8.5 x 4.5 inches",
-            "#5, archival print on transfer paper, 6.5 x 4 inches",
-            "#6, inkjet transfer on watercolor paper, 7.5 x 5 inches",
-            "#7, inkjet transfer on watercolor paper, 4.5 x 6.5 inches",
-            "#8, archival print on transfer paper, 6.5 x 4.5 inches",
-            "#9, inkjet transfer on watercolor paper, 5 x 7.5 inches"
+            "inkjet transfer on watercolor paper, 8.5 x 4.5 inches",
+            "inkjet transfer on watercolor paper, 5.5 x 3.5 inches",
+            "archival print on transfer paper, 10 x 7.5 inches",
+            "inkjet transfer on watercolor paper, 8.5 x 4.5 inches",
+            "archival print on transfer paper, 6.5 x 4 inches",
+            "inkjet transfer on watercolor paper, 7.5 x 5 inches",
+            "inkjet transfer on watercolor paper, 4.5 x 6.5 inches",
+            "archival print on transfer paper, 6.5 x 4.5 inches",
+            "inkjet transfer on watercolor paper, 5 x 7.5 inches"
         ]
     },
     {
@@ -148,12 +192,19 @@
             "/images/personal-work/autumn/Fall+5.webp",
             "/images/personal-work/autumn/Fall+2.webp"
         ],
+        "names": [
+            "autumn discourse",
+            "nightly routines",
+            "bookshelf decor",
+            "table setting",
+            "homey aromas"
+        ],
         "descriptions": [
-            "autumn discourse, silver gelatin print, 10 x 8 inches",
-            "nightly routines, silver gelatin print, 8 x 10 inches",
-            "bookshelf decor, silver gelatin print, 8 x 10 inches",
-            "table setting, silver gelatin print, 8 x 10 inches",
-            "homey aromas, silver gelatin print, 8 x 10 inches"
+            "silver gelatin print, 10 x 8 inches",
+            "silver gelatin print, 8 x 10 inches",
+            "silver gelatin print, 8 x 10 inches",
+            "silver gelatin print, 8 x 10 inches",
+            "silver gelatin print, 8 x 10 inches"
         ]
     },
     {
@@ -164,10 +215,15 @@
             "/images/personal-work/mulch/IMG_1457.webp",
             "/images/personal-work/mulch/IMG_1456.webp"
         ],
+        "names": [
+            "cherries on snow",
+            "frosted leaf",
+            "berry cluster"
+        ],
         "descriptions": [
-            "cherries on snow, liquid emulsion on homemade paper, 6.5 x 4 inches",
-            "frosted leaf, liquid emulsion on homemade paper, 4.5 x 7 inches",
-            "berry cluster, liquid emulsion on homemade paper, 6 x 4 inches"
+            "liquid emulsion on homemade paper, 6.5 x 4 inches",
+            "liquid emulsion on homemade paper, 4.5 x 7 inches",
+            "liquid emulsion on homemade paper, 6 x 4 inches"
         ]
     }
 ]
