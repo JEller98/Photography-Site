@@ -19,6 +19,7 @@ export default function PersonalWorkProject() {
         return <p>Project not found.</p>;
     }
 
+    // needed for YARL
     const slides = project.images.map((image, index) => ({
         src: image, 
         title: project.names?.[index] ?? "",
@@ -29,20 +30,14 @@ export default function PersonalWorkProject() {
         <>
             <Helmet><title>{project.title} - Kassandra Eller</title></Helmet>
             <h1 className = "project-title">{project.title}</h1>
-
-            {/* checks for the senior exhibtion */}
-            {project.venue && <p className = "project-meta">{project.venue}</p>}
-            {project.date && <p className = "project-meta">{project.date}</p>}
-            {project.artist_statement && 
-            (<a href = {project.artist_statement} target = "_blank" 
-            rel = "noopener noreferrer" className = "project-meta">Artist Statement</a>)}
             
-            { /* pulling info from the JSON */}
             <div className = "image-grid">
+                {/* images */}
                 {project.images.map((image, index) => (
                     <button key = {index} 
                     onClick = {() => {setIndex(index); setOpen(true);}} 
                     className = "image-card" tabIndex = {0}>
+                        {/* setting up overlay for a given image within the overall project */}
                         <img src = {image} alt = {project.descriptions?.[index] ?? ""}/>
                         {(project.names?.[index] || project.descriptions?.[index]) && (
                         <div className = "image-overlay">
@@ -59,6 +54,7 @@ export default function PersonalWorkProject() {
                 ))}
             </div>    
 
+            {/* YARL config */}
             <Lightbox
                 open = {open}
                 close = {() => setOpen(false)}
