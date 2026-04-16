@@ -37,6 +37,38 @@ a:hover, a:focus {
     opacity: 1;
 }
 
+.skip-link {
+    position: absolute;
+    top: 65px;
+    left: 1rem;
+
+    transform: translateY(-120%);
+    opacity: 0;
+
+    background: var(--bg-color);
+    color: var(--font-color);
+    font-family: var(--font-body);
+    
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: transform 0.35s ease-out, opacity 0.25s ease-out;
+    z-index: 1001;
+
+    pointer-events: none;
+}
+
+.skip-link:focus {
+    transform: translateY(10%);
+    opacity: 1;
+    pointer-events: auto;
+    outline: none;
+    box-shadow: 0 0 0 2px var(--font-color);
+}
+
 /* navbar stuff */
 nav {
     position: sticky;
