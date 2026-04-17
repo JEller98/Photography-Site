@@ -17,9 +17,12 @@ export default function ExhibitsCategory () {
             <div className = "exhibits-grid">
                 {exhibitsList.map(exhibit => 
                     <Link key = {exhibit.slug} to = {`/exhibits/${exhibit.slug}`} className = "exhibit-card">
-                        <h2 className = "exhibit-card--title">{exhibit.title}</h2>
-                        <p className = "exhibit-card--venue">{exhibit.venue}</p>
-                        <p className = "exhibit-card--date">{exhibit.date}</p>
+                        <img src = {exhibit.hero} alt = "" className = "exhibit-card--image"></img>
+                        <div className = "exhibit-card--overlay">
+                            <h2 className = "exhibit-card--title">{exhibit.title}</h2>
+                            <p className = "exhibit-card--venue">{exhibit.venue}</p>
+                            <p className = "exhibit-card--date">{exhibit.date}</p>
+                        </div>
                     </Link>
                     )}
             </div>
