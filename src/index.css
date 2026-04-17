@@ -338,6 +338,10 @@ nav a:hover::after, a:focus::after {
     font: inherit;
 }
 
+.exhibit-image-card.image-card {
+    cursor: default;
+}
+
 .image-card img {
     width: 100%;
     height: auto;
