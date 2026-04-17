@@ -5,14 +5,24 @@ import {Helmet} from "react-helmet-async";
 export default function ExhibitsCategory () {
     return (
         <>
+            {/* concept to revisit when there's more exhibits:
+            
+            Timeline/list with metadata. 
+            A vertical list where each exhibit shows the title large on the left and the venue/date smaller and dimmer to the right, 
+            separated by a thin rule.
+            
+            Doesn't really work when there's only one exhibit though...*/}
+
             <Helmet><title>Exhibits - Kassandra Eller</title></Helmet>
-            <ul>
+            <div className = "exhibits-grid">
                 {exhibitsList.map(exhibit => 
-                    <li key = {exhibit.slug}>
-                        <Link to = {`/exhibits/${exhibit.slug}`}>{exhibit.title}</Link>
-                    </li>
-                )}
-            </ul>
+                    <Link key = {exhibit.slug} to = {`/exhibits/${exhibit.slug}`} className = "exhibit-card">
+                        <h2 className = "exhibit-card--title">{exhibit.title}</h2>
+                        <p className = "exhibit-card--venue">{exhibit.venue}</p>
+                        <p className = "exhibit-card--date">{exhibit.date}</p>
+                    </Link>
+                    )}
+            </div>
         </>
     );
 }

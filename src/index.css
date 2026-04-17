@@ -9,6 +9,10 @@
     --bg-color: #1f2022;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--bg-color);
     font-family: var(--font-body);
@@ -381,6 +385,47 @@ nav a:hover::after, a:focus::after {
     letter-spacing: 0.05em;
 }
 
+/* exhibits */
+.exhibits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.exhibit-card {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 1.5rem;
+    transition: border-color 0.3s ease, background 0.3s ease;
+    display: block;
+}
+
+.exhibit-card:hover, .exhibit-card:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.exhibit-card--title {
+    font-family: var(--font-project-overlay);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem 0;
+}
+
+.exhibit-card--venue {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    margin: 0 0 0.25rem 0;
+    font-style: italic;
+}
+
+.exhibit-card--date {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
 /* about page */
 .about-container {
     display: flex;
@@ -516,6 +561,18 @@ footer a:hover img, footer a:focus img {
     .image-card:hover img, .image-card:focus img {
         transform: none;
         filter: none;
+    }
+
+    /* prevent strange behavior on small screen sizes */
+    .exhibits-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .exhibit-card {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .about-container {
