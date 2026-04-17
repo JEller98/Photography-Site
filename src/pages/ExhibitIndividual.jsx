@@ -25,7 +25,7 @@ export default function ExhibitIndividual() {
             <div className = "image-grid">
                 {exhibit.images.map((image, index) => (
                     <button key = {index}  
-                    className = "image-card" tabIndex = {0}>
+                    className = "image-card exhibit-image-card" tabIndex = {0}>
                         <img src = {image} alt = {exhibit.alt_text?.[index] ?? ""}/>
                     </button>
                 ))}
