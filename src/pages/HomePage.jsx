@@ -75,7 +75,7 @@ export default function HomePage() {
             <h1 className = "hero-title">Kassandra Eller</h1>
             <p className = "hero-subtitle">Visual Artist</p>
             <div className = "hero-links">
-                <Link to = "work">Personal Work</Link>
+                <Link to = "work">Portfolio</Link>
                 <Link to = "exhibits">Exhibits</Link>
                 
                 {/* Editorial work. Client is unsure if it's needed; will stay hidden for the foreseeable future */}

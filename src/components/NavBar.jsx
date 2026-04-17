@@ -74,7 +74,7 @@ export default function NavBar() {
                 <span></span>
             </button>
             <div aria-hidden = {!isOpen} className = {`nav-links ${isOpen ? "open" : ""}`}>
-                <Link to = "/work" tabIndex = {isOpen || window.innerWidth > 1200 ? 0 : -1} onClick = {() => setIsOpen(false)}>Work</Link>
+                <Link to = "/work" tabIndex = {isOpen || window.innerWidth > 1200 ? 0 : -1} onClick = {() => setIsOpen(false)}>Portfolio</Link>
                 <Link to = "/exhibits" tabIndex = {isOpen || window.innerWidth > 1200 ? 0 : -1} onClick = {()  => setIsOpen(false)}>Exhibits</Link>
                 <Link to = "/about" tabIndex = {isOpen || window.innerWidth > 1200 ? 0 : -1} onClick = {() => setIsOpen(false)}>About</Link>
             
