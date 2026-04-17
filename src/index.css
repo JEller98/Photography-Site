@@ -506,6 +506,16 @@ footer a:hover img, footer a:focus img {
         font-size: 2rem;
     }
 
+    /* disable hover animations/always show overlay on project pages */
+    .image-overlay {
+        opacity: 1;
+    }
+
+    .image-card:hover img, .image-card:focus img {
+        transform: none;
+        filter: none;
+    }
+
     .about-container {
         flex-direction: column;
     }
