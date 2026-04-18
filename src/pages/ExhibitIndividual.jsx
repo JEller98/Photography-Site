@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom";
 import exhibitsList from "../data/exhibits.json"
-import {Helmet} from "react-helmet-async";
+import {useEffect} from "react";
 import "../style/exhibits.css";
 import "../style/projects.css";
 
@@ -8,14 +8,19 @@ export default function ExhibitIndividual() {
     const {slug} = useParams();
     const exhibit = exhibitsList.find(e => e.slug);
 
+    //helmet isn't playing nice, doing this instead
+    useEffect(() => {
+        if(exhibit?.title) {
+                document.title = `${exhibit.title} - Kassandra Eller`;
+            }
+        }, [exhibit]);
+
     if(!exhibit) {
         return <p>Exhibit not found.</p>;
     }
 
     return (
         <>
-            <Helmet><title>{exhibit.title} - Kassandra Eller</title></Helmet>
-            
             <h1 className = "project-title">{exhibit.title}</h1>
 
             <p className = "project-meta">{exhibit.venue}</p>

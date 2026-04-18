@@ -1,11 +1,10 @@
-import { useParams } from "react-router-dom";
+import {useParams} from "react-router-dom";
 import personalProjects from "../data/personal_projects.json";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
-import {useState} from "react";
-import {Helmet} from "react-helmet-async";
+import {useState, useEffect} from "react";
 import "../style/projects.css";
 import "../style/yarl-override.css";
 
@@ -16,6 +15,13 @@ export default function PersonalWorkProject() {
     //lightbox stuff
     const [open, setOpen] = useState(false);
     const [index, setIndex] = useState(0);
+
+    //helmet isn't playing nice, doing this instead
+    useEffect(() => {
+        if(project?.title) {
+            document.title = `${project.title} - Kassandra Eller`;
+        }
+    }, [project]);
 
     if(!project) {
         return <p>Project not found.</p>;
@@ -30,7 +36,6 @@ export default function PersonalWorkProject() {
 
     return (
         <>
-            <Helmet><title>{project.title} - Kassandra Eller</title></Helmet>
             <h1 className = "project-title">{project.title}</h1>
             
             <div className = "image-grid">
