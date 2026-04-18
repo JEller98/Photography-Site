@@ -298,6 +298,7 @@ nav a:hover::after, a:focus::after {
     font-family: var(--font-heading);
     font-size: 2.25rem;
     text-align: center;
+    display: block;
 }
 
 /* individual project pages */
