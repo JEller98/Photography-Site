@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import personalProjects from "../data/personal_projects.json";
 import {useState, useRef, useEffect} from "react";
 import {Helmet} from "react-helmet-async";
+import "../style/projects.css";
 
 export default function PersonalWork() {
     //setting up the crossfade

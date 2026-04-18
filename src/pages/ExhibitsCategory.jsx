@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import exhibitsList from "../data/exhibits.json";
 import {Helmet} from "react-helmet-async";
+import "../style/exhibits.css";
 
 export default function ExhibitsCategory () {
     return (

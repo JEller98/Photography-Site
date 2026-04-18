@@ -1,0 +1,17 @@
+/* overriding yet another react lightbox */
+.yarl__root {
+    --yarl__color_backdrop: rgba(0, 0, 0, .95);
+}
+
+.yarl__slide_title {
+    font-family: var(--font-project-overlay);
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.yarl__slide_description {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    opacity: 0.75;
+    letter-spacing: 0.05em;
+}

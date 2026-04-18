@@ -1,0 +1,93 @@
+/* exhibits */
+.exhibits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.exhibit-card {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: border-color 0.3s ease;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+}
+
+.exhibit-card--image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.exhibit-card:hover, .exhibit-card:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.exhibit-card:hover .exhibit-card--image,
+.exhibit-card:focus .exhibit-card--image {
+    transform: scale(1.03);
+}
+
+.exhibit-card--overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.exhibit-card:hover .exhibit-card--overlay,
+.exhibit-card:focus .exhibit-card--overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.exhibit-card--title {
+    font-family: var(--font-project-overlay);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem 0;
+}
+
+.exhibit-card--venue {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    margin: 0 0 0.25rem 0;
+    font-style: italic;
+}
+
+.exhibit-card--date {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+/* individual exhibit- style override from portfolio pieces */
+.exhibit-image-card.image-card {
+    cursor: default;
+}
+
+@media (max-width: 1200px) {
+    /* prevent strange behavior on small screen sizes */
+    .exhibits-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .exhibit-card {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}

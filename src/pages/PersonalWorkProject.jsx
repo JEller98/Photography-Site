@@ -6,6 +6,8 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 import {useState} from "react";
 import {Helmet} from "react-helmet-async";
+import "../style/projects.css";
+import "../style/yarl-override.css";
 
 export default function PersonalWorkProject() {
     const {slug} = useParams();

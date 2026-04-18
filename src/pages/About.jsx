@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import "../style/about.css";
 
 export default function About() {
     return (

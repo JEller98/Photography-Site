@@ -1,6 +1,8 @@
 import {useParams} from "react-router-dom";
 import exhibitsList from "../data/exhibits.json"
 import {Helmet} from "react-helmet-async";
+import "../style/exhibits.css";
+import "../style/projects.css";
 
 export default function ExhibitIndividual() {
     const {slug} = useParams();

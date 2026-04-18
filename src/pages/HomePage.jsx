@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import {useState, useEffect, useRef} from "react";
+import "../style/homepage.css";
 
 //placeholder assets until higher-quality ones are obtained from client
 const images = [
