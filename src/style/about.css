@@ -6,7 +6,7 @@
     padding: 2rem;
     max-width: 900px;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     align-items: flex-start;
 }
 
