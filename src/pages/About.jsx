@@ -6,11 +6,6 @@ export default function About() {
             <Helmet><title>About - Kassandra Eller</title></Helmet>
             
             <div className = "about-container">
-                {/* replace aria-hidden with meaningful alt text */}
-                <div className = "about-image" aria-hidden = "true"> 
-                    <img src = "https://picsum.photos/1920/1080" />
-                </div>
-
                 <div className = "about-content">
                     <p>
                         Kassandra Eller is a visual artist working between digital and analog processes, often using alternative photographic techniques to keep a physical hand in the act of image-making. Her work moves through ideas of memory, trauma, and place, considering how identity is shaped by what we carry and what we return to. Themes of nature, femininity, and family weave throughout her images, where the personal and environmental begin to overlap.
@@ -27,7 +22,12 @@ export default function About() {
                         To download her CV, <a href = "/pdfs/CV.pdf" target = "_blank" rel = "noopener noreferrer">click here.
                         <span className = "sr-only"> (opens in new tab)</span></a>
                     </p>
-                    <p>For inquiries about her work, process, or purchasing prints, please reach out at <a href = "mailto:kassandraellerphotography@gmail.com">kassandraellerphotogrpahy@gmail.com.</a></p>
+                    <p>For inquiries about her work, process, or purchasing prints, please reach out at <a href = "mailto:kassandraellerphotography@gmail.com">kassandraellerphotography@gmail.com.</a></p>
+                </div>
+
+                {/* replace aria-hidden with meaningful alt text */}
+                <div className = "about-image" aria-hidden = "true"> 
+                    <img src = "https://picsum.photos/1920/1080" />
                 </div>
             </div>
             {/*Potentially do a contact form here?*/}
