@@ -12,6 +12,8 @@ export default function PersonalWorkProject() {
     const {slug} = useParams();
     const project = personalProjects.find(p => p.slug === slug);
 
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1200);
+
     //lightbox stuff
     const [open, setOpen] = useState(false);
     const [index, setIndex] = useState(0);
@@ -22,6 +24,15 @@ export default function PersonalWorkProject() {
             document.title = `${project.title} - Kassandra Eller`;
         }
     }, [project]);
+
+    //disable descriptions on overlay if the user is on a smaller screen
+    useEffect(() => {
+        function handleResize() {
+            setIsMobile(window.innerWidth <= 1200);
+        }
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     if(!project) {
         return <p>Project not found.</p>;
@@ -52,7 +63,7 @@ export default function PersonalWorkProject() {
                                 <p className = "image-overlay--name">{project.names[index]}</p>
                             )}
 
-                            {project.descriptions?.[index] && (
+                            {project.descriptions?.[index] && !isMobile && (
                                 <p className = "image-overlay--description">{project.descriptions[index]}</p>
                             )}
                         </div>
