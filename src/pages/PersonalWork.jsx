@@ -37,7 +37,7 @@ export default function PersonalWork() {
 
     return (
         <>
-            <Helmet><title>Work - Kassandra Eller</title></Helmet>
+            <Helmet><title>Portfolio - Kassandra Eller</title></Helmet>
             
             {/* back layer */}
             <div 
