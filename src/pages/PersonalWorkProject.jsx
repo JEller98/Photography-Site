@@ -12,7 +12,7 @@ export default function PersonalWorkProject() {
     const {slug} = useParams();
     const project = personalProjects.find(p => p.slug === slug);
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1200);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
 
     //lightbox stuff
     const [open, setOpen] = useState(false);
