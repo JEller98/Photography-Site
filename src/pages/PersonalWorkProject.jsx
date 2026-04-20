@@ -25,10 +25,10 @@ export default function PersonalWorkProject() {
         }
     }, [project]);
 
-    //disable descriptions on overlay if the user is on a smaller screen
+    //disable descriptions on overlay if the user is on a smartphone
     useEffect(() => {
         function handleResize() {
-            setIsMobile(window.innerWidth <= 1200);
+            setIsMobile(window.innerWidth <= 767);
         }
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
